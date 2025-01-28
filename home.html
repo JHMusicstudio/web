@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JH Music Studio</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="JH Music White Logo.png">
+</head>
+<body>
+    <header>
+        <h1>Welcome to JH Music Studio</h1>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+    </section>
+
+    <section id="services" class="content">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Recording</h3>
+                <p>Professional-grade recording to capture every nuance of your music.</p>
+            </div>
+            <div class="service">
+                <h3>Mixing</h3>
+                <p>High-quality mixing to ensure your tracks sound flawless and balanced.</p>
+            </div>
+            <div class="service">
+                <h3>Mastering</h3>
+                <p>State-of-the-art mastering to give your music the final polish it needs with 7.1.4 surrounding sounds.</p>
+            </div>
+            <div class="service">
+              <h3>Live Mixing FOH</h3>
+              <p>Experience flawless live sound with our expert FOH mixing services. From concerts to corporate events, we ensure crystal-clear audio and dynamic balance, creating unforgettable moments for your audience. Let your sound take center stage!</p>
+          </div>
+        </div>
+    </section>
+
+    <section id="about" class="content">
+        <h2>About Us</h2>
+        <h3>Javith Hansana - Founder | Audio Engineer | Sound Designer</h3>
+        <p>
+          Javith Hansana is an experienced audio engineer and sound designer based in Colombo, Sri Lanka. With a deep passion for sound and technical precision, Javith specializes in music production, sound design, mixing, mastering, and surround sound engineering.
+          <br><br>
+          Having worked with leading artists, filmmakers, and event organizers, Javith is known for his attention to detail and dedication to delivering high-quality audio experiences. At JH Music Studios, he brings creative visions to life, ensuring that each project resonates with clarity and impact.
+          <br>
+          Whether it’s crafting immersive soundscapes for films, producing music, or providing expert audio mixing and mastering, Javith’s expertise ensures a professional and polished result every time.</p>
+    </section>
+
+    <section id="contact" class="content">
+        <h2>Contact Us</h2>
+        <p>Email: info@jhmusicstudio.lk | Phone: (070) 491 1163</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 JH Music Studio. All rights reserved.</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.background = '#000';
+                header.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.5)';
+            } else {
+                header.style.background = 'transparent';
+                header.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="logo.png">
+    <title>JH Music Studio</title>
+</head>
+<body>
+      <!--Preloarder-->  
+  <div id="preloarder" class="loaderWrapper"></div>
+    <script> 
+        window.addEventListener('load', (event) => {
+         const preloarder = document.getElementById('preloarder');
+            preloarder.classList.add('loaderWrapper--hidden');
+
+            preloarder.addEventListener('transitionend', () => {
+                preloarder.remove();
+            });
+        });
+    </script> 
+
+  <!--end of prelording-->
+    <script>
+        document.addEventListener('contextmenu', disableRightClick);
+        function disableRightClick(e){
+        e.preventDefault();
+    }
+    </script>
+    <!--Page start-->
+    
+    <div class="loading-container" id="lording--con">
+        <div class="lording">
+            <p>
+                <span class="lt1">JH</span>
+                <span class="lt2">Music</span>
+                <span class="lt3">Studio</span></p>
+        </div>
+    </div>
+    <!--Page content-->
+    <iframe src="home.html" id="iframe" frameborder="0" width="100%" height="100vh" style="visibility: hidden;"></iframe> 
+    <!--script-->
+    <script>
+        function hideLord(){
+            document.getElementById("lording--con").style.display="none";
+            document.getElementById("iframe").style.visibility="visible";
+        }
+        setTimeout("hideLord()", 7900);
+    </script>
+</body>
+</html>

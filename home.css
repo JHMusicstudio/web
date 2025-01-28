@@ -1,0 +1,103 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #111;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #f39c12;
+  }
+  
+  .hero {
+    height: 60vh;
+    background: url('wallpaper.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero h2 {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    font-size: 2.5rem;
+    border-radius: 10px;
+  }
+  
+  .content {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    color: #f39c12;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  
+  .service {
+    flex: 1 1 300px;
+    background: #333;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service h3 {
+    color: #f39c12;
+  }
+  
+  .service p {
+    margin: 1rem 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #111;
+    margin-top: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .hero{
+        height: 50vh;
+    }
+  }
