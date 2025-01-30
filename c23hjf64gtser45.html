@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contemporary Theater Act</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="icon" href="icon.png">
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <nav>
+    <div class="logo">Resurruction of Kuweni</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#cast">Cast</a></li>
+      <li><a href="#shows">Upcoming Shows</a></li>
+      <li><a href="#tickets">Buy Tickets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">☾</button>
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Resurruction of Kuweni</h1>
+    <p>An Epic Historical Cinematic Physical Theater Experience</p>
+    <a href="#shows" class="cta-button">View Shows</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p class="about">'Resurrection's Kuweni' is an independent stage play that goes beyond the historical Vijaya Kuveni story and conducts an experimental study of the truth about Kuveni. It is staged for the first time in Sri Lanka according to contemporary performance methods through new theatrical methods, exploring innovative aspects of the art of theater. The special feature of this is the use of innovative acting and emotional dance, which are currently available in world theater, in theater, and the innovative use of music, singing and other ancillary arts.</p>
+  </section>
+
+  <!-- Cast Profiles -->
+  <section id="cast">
+    <h2>Meet the Cast</h2>
+    <div class="cast-grid">
+      <div class="cast-member">
+        <img src="actor.jpeg" alt="Cast Member 1">
+        <h3>Actor Name</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ratione nisi sunt delectus officia porro minima labore! Animi, magnam expedita dignissimos velit explicabo nobis odio voluptatem dolores optio neque amet?</p>
+      </div>
+      <div class="cast-member">
+        <img src="actor.jpeg" alt="Cast Member 2">
+        <h3>Actor Name</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusantium, nemo eligendi hic soluta sit, autem aut iure eos sapiente ipsam nostrum sequi! Facere corporis iste ipsam vel deleniti ut.</p>
+      </div>
+      <div class="cast-member">
+        <img src="actor.jpeg" alt="Cast Member 2">
+        <h3>Actor Name</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam itaque laudantium delectus exercitationem, nulla explicabo cumque ad rerum aliquam nihil minus minima maiores dignissimos culpa? Similique iusto est dolores repellendus.</p>
+      </div>
+      <div class="cast-member">
+        <img src="actor.jpeg" alt="Cast Member 2">
+        <h3>Actor Name</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae expedita maxime commodi pariatur, ducimus temporibus ipsam id laboriosam nesciunt! Repellat in tenetur explicabo dolorem veritatis fugit eius vitae cupiditate molestias.</p>
+      </div>
+      <!-- Add more cast members as needed -->
+    </div><center>
+    <a href="#"><button id="Read" class="cta-button">Read more</button></a></center>
+  </section>
+  <section class="trailer-section">
+    <h2>Exclusive Show Trailer</h2>
+    <div class="trailer-container">
+        <video id="trailer-video" controls poster="trailer-thumbnail.jpg">
+            <source src="Trailer.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <button id="play-button">▶ Play Trailer</button>
+    </div>
+</section>
+  <!-- Upcoming Shows -->
+  <section id="shows">
+    <h2>Upcoming Shows</h2>
+    <div class="show-list">
+      <div class="show">
+        <h3>Elphinston</h3>
+        <p>Date: February 30, 2025</p>
+        <p>Time: 7:00 PM</p>
+        <a href="#tickets" class="cta-button">Buy Tickets</a>
+      </div>
+      <div class="show">
+        <h3>Nelum Pokuna</h3>
+        <p>Date: March 5, 2025</p>
+        <p>Time: 8:00 PM</p>
+        <a href="#tickets" class="cta-button">Buy Tickets</a>
+      </div>
+      <!-- Add more shows as needed -->
+    </div>
+  </section>
+
+  <!-- Buy Tickets -->
+  <section id="tickets">
+    <h2>Buy Tickets</h2>
+    <form id="ticket-form">
+      <label for="show-select">Select Show:</label>
+      <select id="show-select" name="show">
+        <option value="Select">Select show</option>
+        <option value="show1">Show Title 1</option>
+        <option value="show2">Show Title 2</option>
+      </select>
+      <label for="show-select">Select Ticket:</label>
+      <select id="show-select" name="show">
+        <option value="Select">Select Ticket</option>
+        <option value="TicketSet1">VIP - Rs.2500</option>
+        <option value="TicketSet2">Standard I - Rs.1500</option>
+        <option value="TicketSet3">Standard II - Rs.1000</option>
+        <option value="TicketSet4">Student - Rs.500</option>
+      </select>
+      <label for="quantity">Number of Tickets:</label>
+      <input type="number" id="quantity" name="quantity" placeholder="Quantity" min="1" max="10">
+      <button type="submit" class="cta-button">Purchase</button>
+    </form>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit" class="cta-button">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Contemporary Theater Act. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#cast">Cast</a></li>
+      <li><a href="#shows">Shows</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
