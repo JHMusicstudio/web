@@ -84,7 +84,20 @@ body {
   .service p {
     margin: 1rem 0;
   }
-  
+  .service a button{
+    width: 15vw;
+    height: 5vh;
+    color: #f39c12;
+    background-color: #a1a1a1;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .service a button:hover{
+    background-color: #f39c12;
+    color: #111;
+  }
   footer {
     text-align: center;
     padding: 1rem;
