@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio File Delivery | JH Music Studio</title>
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Audio File Delivery</h1>
+            <p>Professional audio compositions for our valued clients - <span>Nethma Anuhas</span></p>
+        </header>
+
+        <div class="controls">
+            <div class="search-filter">
+                <input type="text" placeholder="Search files..." id="searchInput">
+                <select id="statusFilter">
+                    <option value="">All Statuses</option>
+                    <option value="composed">Composed Only</option>
+                    <option value="mixed">Mixed</option>
+                    <option value="mastered">Mastered</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table id="audioFilesTable">
+                <thead>
+                    <tr>
+                        <th>Attempt</th>
+                        <th>Audio Player</th>
+                        <th>Status</th>
+                        <th>File Size</th>
+                        <th>Price (USD)</th>
+                        <th>Downloads</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pagination">
+            <button id="prevPage" disabled><i class="fas fa-chevron-left"></i></button>
+            <span id="pageInfo">Page 1 of 1</span>
+            <button id="nextPage" disabled><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <script src="projects.js"></script>
+</body>
+</html>
