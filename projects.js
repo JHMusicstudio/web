@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Sample data with audio file URLs and download links
     let audioFiles = [
         {
-            attempt: '001',
+            attempt: '1/5/2025',
             audioUrl: 'Nethma.mp3',
             duration: '1:07',
             status: 'composed',
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             downloadUrl: 'Nethma.mp3'
         },
         {
-            attempt: '002',
+            attempt: '7/5/2025',
             audioUrl: 'Nethma-Final-Sample.mp3',
             duration: '1:31',
             status: 'composed',
