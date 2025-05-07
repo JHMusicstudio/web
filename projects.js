@@ -4,12 +4,22 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             attempt: '001',
             audioUrl: 'Nethma.mp3',
-            duration: '1:57',
+            duration: '1:07',
             status: 'composed',
-            size: '24.5 MB',
+            size: '1.20 MB',
             price: '00.00',
             downloads: 'Available',
             downloadUrl: 'Nethma.mp3'
+        },
+        {
+            attempt: '002',
+            audioUrl: 'Nethma-Final-Sample.mp3',
+            duration: '1:31',
+            status: 'composed',
+            size: '1.40 MB',
+            price: '00.00',
+            downloads: 'Available',
+            downloadUrl: 'Nethma-Final-Sample.mp3'
         },
         
     ];
