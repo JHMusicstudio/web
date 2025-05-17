@@ -21,6 +21,16 @@ document.addEventListener('DOMContentLoaded', function() {
             downloads: 'Available',
             downloadUrl: 'Nethma-Final-Sample.mp3'
         },
+        {
+            attempt: '17/5/2025',
+            audioUrl: 'Nethma_NFinal_Sample.mp3',
+            duration: '1:32',
+            status: 'mixed',
+            size: '1.42 MB',
+            price: '00.00',
+            downloads: 'Available',
+            downloadUrl: 'Nethma_NFinal_Sample.mp3'
+        },
         
     ];
 
